@@ -1,0 +1,36 @@
+.home {
+  margin: 25px 0 !important;
+
+  .title {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+  }
+
+  form {
+    padding-top: 25px;
+
+    label {
+      padding-bottom: 5px;
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+
+    .btn {
+      font-size: 0.75rem !important;
+    }
+  }
+
+  .list-group {
+    padding-top: 25px;
+  }
+
+  .list-group-item {
+    border-radius: 0 !important;
+
+    span {
+      color: #bdbdbd;
+    }
+  }
+}

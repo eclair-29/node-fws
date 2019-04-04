@@ -1,0 +1,17 @@
+// Imports:
+// Bourbon: a lightweight Sass tool set (https://www.bourbon.io/)...
+// ...and Global Styles
+@import "bourbon/bourbon";
+@import "globals/globals";
+
+@import "home";
+
+// Custom Wrapper (Optional Class: inject it and have a custom wrapper)
+.wrapper {
+  width: 100%;
+  max-width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Put your custom variables and mixins here...

@@ -1,0 +1,32 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "simple express app",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "scss": "node-sass -o public/styles public/styles/main.scss",
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "eclair",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  }
+}
